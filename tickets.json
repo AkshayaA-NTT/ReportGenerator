@@ -1,0 +1,270 @@
+[
+  {
+    "key": "PROJ-001",
+    "summary": "Login system not working properly",
+    "description": "Users are unable to login to the application. Getting error message 'Invalid credentials' even with correct username and password.",
+    "priority": "High",
+    "status": "Resolved",
+    "created": "2024-01-10T09:00:00Z",
+    "resolved": "2024-01-10T16:30:00Z",
+    "comments": [
+      {
+        "created": "2024-01-10T10:30:00Z",
+        "body": "We are investigating this issue immediately. It appears to be related to the authentication service."
+      },
+      {
+        "created": "2024-01-10T14:00:00Z",
+        "body": "Found the root cause. Database connection timeout was causing authentication failures. Fix deployed."
+      },
+      {
+        "created": "2024-01-10T16:30:00Z",
+        "body": "Issue has been resolved. Login functionality is now working perfectly. Thank you for your patience."
+      }
+    ]
+  },
+  {
+    "key": "PROJ-002",
+    "summary": "Feature request for dark mode",
+    "description": "Many users are requesting a dark theme option for better user experience, especially during night time usage.",
+    "priority": "Low",
+    "status": "Open",
+    "created": "2024-01-11T11:00:00Z",
+    "comments": [
+      {
+        "created": "2024-01-12T09:00:00Z",
+        "body": "Thank you for this excellent suggestion! We will add this to our product roadmap for the next quarter."
+      }
+    ]
+  },
+  {
+    "key": "PROJ-003",
+    "summary": "Application crashes when uploading large files",
+    "description": "The application becomes unresponsive and crashes when trying to upload files larger than 50MB. This is very frustrating for users.",
+    "priority": "Critical",
+    "status": "In Progress",
+    "created": "2024-01-08T14:20:00Z",
+    "comments": [
+      {
+        "created": "2024-01-08T15:45:00Z",
+        "body": "This is a serious issue affecting multiple users. We're prioritizing this bug fix immediately."
+      },
+      {
+        "created": "2024-01-09T10:15:00Z",
+        "body": "Identified the memory leak in the file upload handler. Working on optimization now."
+      },
+      {
+        "created": "2024-01-12T13:30:00Z",
+        "body": "Implemented chunked upload mechanism. Currently testing the solution before deployment."
+      }
+    ]
+  },
+  {
+    "key": "PROJ-004",
+    "summary": "Slow page load times on dashboard",
+    "description": "Dashboard takes more than 10 seconds to load completely. Users are complaining about poor performance.",
+    "priority": "Medium",
+    "status": "Resolved",
+    "created": "2024-01-05T16:45:00Z",
+    "resolved": "2024-01-07T11:20:00Z",
+    "comments": [
+      {
+        "created": "2024-01-06T08:30:00Z",
+        "body": "We've identified several database queries that are not optimized. Working on performance improvements."
+      },
+      {
+        "created": "2024-01-07T11:20:00Z",
+        "body": "Optimized all database queries and implemented caching. Dashboard now loads in under 2 seconds. Great improvement!"
+      }
+    ]
+  },
+  {
+    "key": "PROJ-005",
+    "summary": "Email notifications not being sent",
+    "description": "Users report that they are not receiving email notifications for important updates and alerts.",
+    "priority": "High",
+    "status": "Closed",
+    "created": "2024-01-03T13:15:00Z",
+    "resolved": "2024-01-04T09:45:00Z",
+    "comments": [
+      {
+        "created": "2024-01-03T14:20:00Z",
+        "body": "Checking email service configuration. This seems to be a widespread issue."
+      },
+      {
+        "created": "2024-01-04T09:45:00Z",
+        "body": "Issue was with SMTP server credentials. All fixed now and emails are flowing normally."
+      }
+    ]
+  },
+  {
+    "key": "PROJ-006",
+    "summary": "Add export functionality to reports",
+    "description": "Users want to be able to export reports in PDF and Excel formats for offline analysis and sharing.",
+    "priority": "Medium",
+    "status": "Open",
+    "created": "2024-01-15T10:30:00Z",
+    "comments": [
+      {
+        "created": "2024-01-16T11:00:00Z",
+        "body": "This is a valuable feature request. We'll include this in our next sprint planning session."
+      }
+    ]
+  },
+  {
+    "key": "PROJ-007",
+    "summary": "Mobile app keeps crashing on iOS devices",
+    "description": "iOS users report frequent crashes when using the mobile application. This is causing significant user dissatisfaction.",
+    "priority": "Critical",
+    "status": "In Progress",
+    "created": "2024-01-12T08:45:00Z",
+    "comments": [
+      {
+        "created": "2024-01-12T09:30:00Z",
+        "body": "This is affecting a large number of our iOS users. We need to address this urgently!"
+      },
+      {
+        "created": "2024-01-13T14:15:00Z",
+        "body": "Found compatibility issues with iOS 17. Working on a hotfix now."
+      },
+      {
+        "created": "2024-01-15T16:20:00Z",
+        "body": "Hotfix is ready and submitted to App Store for review. Should be available within 24-48 hours."
+      }
+    ]
+  },
+  {
+    "key": "PROJ-008",
+    "summary": "Improve search functionality",
+    "description": "Current search is too basic and doesn't provide relevant results. Users are having difficulty finding what they need.",
+    "priority": "Medium",
+    "status": "Open",
+    "created": "2024-01-14T12:00:00Z",
+    "comments": [
+      {
+        "created": "2024-01-15T10:45:00Z",
+        "body": "We agree that search functionality needs enhancement. Looking into implementing advanced search filters and better algorithms."
+      }
+    ]
+  },
+  {
+    "key": "PROJ-009",
+    "summary": "Security vulnerability in user authentication",
+    "description": "Potential security flaw discovered in the authentication system that could allow unauthorized access.",
+    "priority": "Critical",
+    "status": "Resolved",
+    "created": "2024-01-02T20:15:00Z",
+    "resolved": "2024-01-03T02:30:00Z",
+    "comments": [
+      {
+        "created": "2024-01-02T21:00:00Z",
+        "body": "This is a critical security issue. All hands on deck to resolve this immediately."
+      },
+      {
+        "created": "2024-01-03T02:30:00Z",
+        "body": "Security patch deployed successfully. Vulnerability has been completely eliminated. All systems secure."
+      }
+    ]
+  },
+  {
+    "key": "PROJ-010",
+    "summary": "Database backup failing",
+    "description": "Automated database backups have been failing for the past 3 days. This is a critical system maintenance issue.",
+    "priority": "High",
+    "status": "Resolved",
+    "created": "2024-01-09T07:30:00Z",
+    "resolved": "2024-01-09T14:45:00Z",
+    "comments": [
+      {
+        "created": "2024-01-09T08:15:00Z",
+        "body": "Investigating backup system failure. This is critical for data safety and compliance."
+      },
+      {
+        "created": "2024-01-09T14:45:00Z",
+        "body": "Fixed disk space issue on backup server. Backups are now running successfully again."
+      }
+    ]
+  },
+  {
+    "key": "PROJ-011",
+    "summary": "Add multi-language support",
+    "description": "Users from different regions are requesting support for multiple languages including Spanish, French, and German.",
+    "priority": "Low",
+    "status": "Open",
+    "created": "2024-01-16T15:20:00Z",
+    "comments": [
+      {
+        "created": "2024-01-17T09:30:00Z",
+        "body": "This is a great suggestion for our international expansion. We'll evaluate the effort required for implementation."
+      }
+    ]
+  },
+  {
+    "key": "PROJ-012",
+    "summary": "Calendar integration not syncing properly",
+    "description": "Users report that calendar events are not syncing correctly with external calendar applications like Outlook and Google Calendar.",
+    "priority": "Medium",
+    "status": "In Progress",
+    "created": "2024-01-13T11:45:00Z",
+    "comments": [
+      {
+        "created": "2024-01-13T13:20:00Z",
+        "body": "Investigating calendar sync issues. Appears to be related to timezone handling."
+      },
+      {
+        "created": "2024-01-14T16:10:00Z",
+        "body": "Found the issue with timezone conversion. Working on a comprehensive fix now."
+      }
+    ]
+  },
+  {
+    "key": "PROJ-013",
+    "summary": "User interface is confusing and not intuitive",
+    "description": "Several users have complained that the current user interface is difficult to navigate and not user-friendly.",
+    "priority": "Medium",
+    "status": "Open",
+    "created": "2024-01-11T14:30:00Z",
+    "comments": [
+      {
+        "created": "2024-01-12T10:15:00Z",
+        "body": "We take user experience feedback seriously. Our UX team will review the current interface and propose improvements."
+      }
+    ]
+  },
+  {
+    "key": "PROJ-014",
+    "summary": "API rate limiting causing issues for integrations",
+    "description": "Third-party integrations are being throttled too aggressively, causing disruptions in automated workflows.",
+    "priority": "High",
+    "status": "Resolved",
+    "created": "2024-01-06T09:20:00Z",
+    "resolved": "2024-01-08T13:15:00Z",
+    "comments": [
+      {
+        "created": "2024-01-06T11:45:00Z",
+        "body": "Reviewing current rate limiting policies. They may be too restrictive for legitimate use cases."
+      },
+      {
+        "created": "2024-01-08T13:15:00Z",
+        "body": "Adjusted rate limits to be more reasonable while still protecting against abuse. Integration partners should see improved performance now."
+      }
+    ]
+  },
+  {
+    "key": "PROJ-015",
+    "summary": "Implement two-factor authentication",
+    "description": "For enhanced security, users are requesting two-factor authentication options to protect their accounts.",
+    "priority": "Medium",
+    "status": "In Progress",
+    "created": "2024-01-04T16:50:00Z",
+    "comments": [
+      {
+        "created": "2024-01-05T09:30:00Z",
+        "body": "Excellent security enhancement request! We're planning to implement 2FA with SMS and authenticator app options."
+      },
+      {
+        "created": "2024-01-10T14:20:00Z",
+        "body": "2FA implementation is 60% complete. Testing SMS integration currently."
+      }
+    ]
+  }
+]
